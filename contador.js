@@ -23,8 +23,14 @@ function resetar() {
     console.log("Contador resetado!");
 }
 
+// 🔹 Nova função para mostrar o valor atual do contador
+function mostrarContador() {
+    console.log(`Valor atual do contador: ${contador}`);
+}
+
 // Testando as funções
 incrementar();
 incrementar();
 decrementar();
+mostrarContador(); // Nova função adicionada
 resetar();
